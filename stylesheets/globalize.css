@@ -1,4 +1,7 @@
 @charset "utf-8";
+/*
+ * .color-
+ */
 :root .color-aqua {
   color: #0ff;
 }
@@ -50,18 +53,27 @@
 :root .color-yellow {
   color: #ff0;
 }
+/*
+ * .display-
+ */
 :root .display-none {
   display: none;
 }
 :root .display-block {
   display: block;
 }
+/*
+ * .float-
+ */
 :root .float-left {
   float: left;
 }
 :root .float-right {
   float: right;
 }
+/*
+ * .font-
+ */
 :root .font-xxsmall {
   font-size: 10px;
 }
@@ -95,6 +107,9 @@
 :root .font-monospace {
   font-family: "Courier New", Courier, monospace;
 }
+/*
+ * .position-
+ */
 :root .position-static {
   position: static;
 }
@@ -112,12 +127,18 @@
   position: absolute;
   bottom: 0;
 }
+/*
+ * .table-
+ */
 :root .table-auto {
   table-layout: auto;
 }
 :root .table-fixed {
   table-layout: fixed;
 }
+/*
+ * .text-
+ */
 :root .text-left {
   text-align: left;
 }
@@ -127,6 +148,9 @@
 :root .text-right {
   text-align: right;
 }
+/*
+ * .vertical-
+ */
 :root .vertical-top {
   vertical-align: top;
 }
@@ -136,6 +160,9 @@
 :root .vertical-bottom {
   vertical-align: bottom;
 }
+/*
+ * .width-
+ */
 :root .width-full {
   width: 100%;
 }
