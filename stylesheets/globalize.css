@@ -1,0 +1,10 @@
+@charset "utf-8";
+:root .text-left {
+  text-align: left;
+}
+:root .text-center {
+  text-align: center;
+}
+:root .text-right {
+  text-align: right;
+}
