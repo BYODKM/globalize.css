@@ -44,6 +44,15 @@ html:root .float-right {
 /*
  * .font-
  */
+html:root .font-serif {
+  font-family: Times, "Times New Roman", serif;
+}
+html:root .font-sansserif {
+  font-family: Helvetica, Arial, sans-serif;
+}
+html:root .font-monospace {
+  font-family: "Courier New", Courier, monospace;
+}
 html:root .font-xxsmall {
   font-size: 10px;
 }
@@ -67,15 +76,6 @@ html:root .font-xxlarge {
 }
 html:root .font-bold {
   font-weight: bold;
-}
-html:root .font-serif {
-  font-family: Times, "Times New Roman", serif;
-}
-html:root .font-sansserif {
-  font-family: Helvetica, Arial, sans-serif;
-}
-html:root .font-monospace {
-  font-family: "Courier New", Courier, monospace;
 }
 /*
  * .position-
