@@ -19,7 +19,7 @@ Feel free to extend it. The classes also use [Open/closed](http://en.wikipedia.o
 Under MIT License.
 
 ## Recommendations
-Use [normalize.css](https://github.com/necolas/normalize.css/) and [Stylus](http://learnboost.github.io/stylus/).
+Use [normalize.css](http://necolas.github.io/normalize.css/) and [Stylus](http://learnboost.github.io/stylus/).
 
 ## Limitations
 * Drop support for IE8. It's easy to fix, but we don't want to.
