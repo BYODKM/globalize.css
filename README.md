@@ -9,7 +9,7 @@ This is the Object-oriented classes you can use everywhere. I mean _"everywhere"
 
 ## How it works?
 
-Class names use [APICSS](https://byodkm.com/apicss/) method. Long story short, that makes these classes truly solid and reliable.
+The class names use [APICSS](https://byodkm.com/apicss/) method. Long story short, that makes these classes truly solid and reliable.
 
 ## Can I extend it?
 
@@ -23,4 +23,4 @@ Use [normalize.css](http://necolas.github.io/normalize.css/) and [Stylus](http:/
 
 ## Limitations
 * Drop support for IE8. It's easy to fix, but we don't want to.
-* Keep css specificity low as possible outside of this library. If you couldn't, you should give higher specificity for this than others. (e.g. Replace `html:root` with `html#root` or something)
+* Keep css specificity low as possible outside of this library. If it's hard, you should give higher specificity for this than others. (e.g. Replace `html:root` with `html#root` or something)
