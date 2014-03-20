@@ -1,4 +1,4 @@
 globalize.css
 =============
 
-It have to be global.
+Have to be global!
