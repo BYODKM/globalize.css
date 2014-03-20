@@ -11,9 +11,9 @@ This is the Object-oriented classes you can use everywhere. I mean _"everywhere"
 
 Class names use [APICSS](https://byodkm.com/apicss/) method. Long story short, that makes these classes truly solid and reliable.
 
-## Can I extend?
+## Can I extend it?
 
-Feel free to extend. These classes also use [Open/closed principle](http://en.wikipedia.org/wiki/Open/closed_principle). You can understand how to extend it easily.
+Feel free to extend it. These classes also use [Open/closed principle](http://en.wikipedia.org/wiki/Open/closed_principle). You can understand how to extend it easily.
 
 ## License
 Under MIT License.
