@@ -23,4 +23,4 @@ Use [normalize.css](http://necolas.github.io/normalize.css/) and [Stylus](http:/
 
 ## Limitations
 * Drop support for IE8. It's easy to fix, but we don't want to.
-* Keep css specificity low as possible outside of this library. If you could't, you should give higher specificity for this than others. (e.g. Replace `html:root` with `html#root` or something)
+* Keep css specificity low as possible outside of this library. If you couldn't, you should give higher specificity for this than others. (e.g. Replace `html:root` with `html#root` or something)
