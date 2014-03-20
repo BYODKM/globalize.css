@@ -13,7 +13,7 @@ Class names use [APICSS](https://byodkm.com/apicss/) method. Long story short, t
 
 ## Can I extend it?
 
-Feel free to extend it. These classes also use [Open/closed principle](http://en.wikipedia.org/wiki/Open/closed_principle). You can understand how to extend it easily.
+Feel free to extend it. The classes also use [Open/closed principle](http://en.wikipedia.org/wiki/Open/closed_principle). You can understand how to extend it easily.
 
 ## License
 Under MIT License.
