@@ -19,5 +19,4 @@ Feel free to extend. These classes also use [Open/closed principle](http://en.wi
 Under MIT License.
 
 ## Recommendation
-* [normalize.css](https://github.com/necolas/normalize.css/)
-* [Stylus](http://learnboost.github.io/stylus/)
+Use [normalize.css](https://github.com/necolas/normalize.css/) and [Stylus](http://learnboost.github.io/stylus/).
