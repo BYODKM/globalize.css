@@ -13,7 +13,7 @@ The class names use [APICSS](https://byodkm.com/apicss/) method. Long story shor
 
 ## Can I extend it?
 
-Feel free to extend it. The classes also use [Open/closed](http://en.wikipedia.org/wiki/Open/closed_principle) principle. You can understand how to extend it easily.
+Feel free to extend it. The classes also use [Open/closed](http://en.wikipedia.org/wiki/Open/closed_principle) principle. You can understand how to extend it [easily](https://github.com/BYODKM/globalize.css/blob/master/stylesheets/stylus/color.styl).
 
 ## License
 Under MIT License.
