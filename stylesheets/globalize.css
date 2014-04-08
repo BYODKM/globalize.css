@@ -1,6 +1,6 @@
 @charset "utf-8";
-/*
- * .color-
+/**
+ * .color- Group
  */
 html:root .color-black {
   color: #000;
@@ -23,8 +23,8 @@ html:root .color-white {
 html:root .color-yellow {
   color: #ff0;
 }
-/*
- * .display-
+/**
+ * .display- Group
  */
 html:root .display-none {
   display: none;
@@ -32,8 +32,8 @@ html:root .display-none {
 html:root .display-block {
   display: block;
 }
-/*
- * .float-
+/**
+ * .float- Group
  */
 html:root .float-left {
   float: left;
@@ -41,8 +41,12 @@ html:root .float-left {
 html:root .float-right {
   float: right;
 }
-/*
- * .font-
+html:root .float-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+/**
+ * .font- Group
  */
 html:root .font-serif {
   font-family: Times, "Times New Roman", serif;
@@ -52,6 +56,9 @@ html:root .font-sansserif {
 }
 html:root .font-monospace {
   font-family: "Courier New", Courier, monospace;
+}
+html:root .font-bold {
+  font-weight: bold;
 }
 html:root .font-xxsmall {
   font-size: 10px;
@@ -74,11 +81,8 @@ html:root .font-xlarge {
 html:root .font-xxlarge {
   font-size: 22px;
 }
-html:root .font-bold {
-  font-weight: bold;
-}
-/*
- * .position-
+/**
+ * .position- Group
  */
 html:root .position-static {
   position: static;
@@ -97,8 +101,8 @@ html:root .position-absolute-b0 {
   position: absolute;
   bottom: 0;
 }
-/*
- * .table-
+/**
+ * .table- Group
  */
 html:root .table-auto {
   table-layout: auto;
@@ -106,8 +110,8 @@ html:root .table-auto {
 html:root .table-fixed {
   table-layout: fixed;
 }
-/*
- * .text-
+/**
+ * .text- Group
  */
 html:root .text-left {
   text-align: left;
@@ -118,8 +122,8 @@ html:root .text-center {
 html:root .text-right {
   text-align: right;
 }
-/*
- * .vertical-
+/**
+ * .vertical- Group
  */
 html:root .vertical-top {
   vertical-align: top;
@@ -130,9 +134,12 @@ html:root .vertical-middle {
 html:root .vertical-bottom {
   vertical-align: bottom;
 }
-/*
- * .width-
+/**
+ * .width- Group
  */
+html:root .width-auto {
+  width: auto;
+}
 html:root .width-full {
   width: 100%;
 }
