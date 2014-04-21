@@ -1,0 +1,21 @@
+/*!*
+ * Color Group
+ */
+
+html:root
+
+	.clear
+
+		&-both
+			clear both
+
+		&-fix:before,
+		&-fix:after,
+		&fix:before,
+		&fix:after
+			content " "
+			display table
+
+		&-fix:after,
+		&fix:after
+			clear both
