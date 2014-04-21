@@ -1,21 +1,15 @@
 /* globalize.css v1.01 | MIT License | github.com/BYODKM/globalize.css */
 @charset "utf-8";
 /* clear.styl */
-html:root .clear {
-  clear: both;
-}
 html:root .clear-both {
   clear: both;
 }
 html:root .clear-fix:before,
-html:root .clear-fix:after,
-html:root .clearfix:before,
-html:root .clearfix:after {
+html:root .clear-fix:after {
   content: " ";
   display: table;
 }
-html:root .clear-fix:after,
-html:root .clearfix:after {
+html:root .clear-fix:after {
   clear: both;
 }
 /* color.styl */
