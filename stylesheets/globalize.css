@@ -202,9 +202,15 @@ html:root .lineheight-wide {
 /**
  * MARGIN GROUP
  */
+html:root .margin-none {
+  margin: 0;
+}
 /**
  * PADDING GROUP
  */
+html:root .padding-none {
+  padding: 0;
+}
 /**
  * POSITION GROUP
  */
