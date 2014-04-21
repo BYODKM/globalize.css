@@ -4,9 +4,13 @@
  * BOX GROUP
  */
 html:root .box-border {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 html:root .box-content {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 /**
@@ -170,25 +174,25 @@ html:root .font-zero {
   font-size: 0;
 }
 html:root .font-xxsmall {
-  font-size: 7px;
+  font-size: xx-small;
 }
 html:root .font-xsmall {
-  font-size: 10px;
+  font-size: x-small;
 }
 html:root .font-small {
-  font-size: 13px;
+  font-size: small;
 }
 html:root .font-medium {
-  font-size: 16px;
+  font-size: medium;
 }
 html:root .font-large {
-  font-size: 19px;
+  font-size: large;
 }
 html:root .font-xlarge {
-  font-size: 21px;
+  font-size: x-large;
 }
 html:root .font-xxlarge {
-  font-size: 24px;
+  font-size: xx-large;
 }
 /**
  * LINEHEIGHT GROUP
