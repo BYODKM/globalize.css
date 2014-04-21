@@ -19,6 +19,13 @@ html:root .clearfix:after {
   clear: both;
 }
 /* color.styl */
+html:root .color-aqua {
+  color: #0ff;
+}
+html:root .color-aquabold {
+  color: #0ff;
+  font-weight: bold;
+}
 html:root .color-black {
   color: #000;
 }
@@ -33,11 +40,11 @@ html:root .color-bluebold {
   color: #00f;
   font-weight: bold;
 }
-html:root .color-gray {
-  color: #808080;
+html:root .color-fuchsia {
+  color: #f0f;
 }
-html:root .color-graybold {
-  color: #808080;
+html:root .color-fuchsiabold {
+  color: #f0f;
   font-weight: bold;
 }
 html:root .color-gray {
@@ -47,11 +54,46 @@ html:root .color-graybold {
   color: #808080;
   font-weight: bold;
 }
-html:root .color-pink {
-  color: #ffc0cb;
+html:root .color-green {
+  color: #008000;
 }
-html:root .color-pinkbold {
-  color: #ffc0cb;
+html:root .color-greenbold {
+  color: #008000;
+  font-weight: bold;
+}
+html:root .color-lime {
+  color: #0f0;
+}
+html:root .color-limebold {
+  color: #0f0;
+  font-weight: bold;
+}
+html:root .color-maroon {
+  color: #800000;
+}
+html:root .color-maroonbold {
+  color: #800000;
+  font-weight: bold;
+}
+html:root .color-navy {
+  color: #000080;
+}
+html:root .color-navybold {
+  color: #000080;
+  font-weight: bold;
+}
+html:root .color-olive {
+  color: #808000;
+}
+html:root .color-olivebold {
+  color: #808000;
+  font-weight: bold;
+}
+html:root .color-orange {
+  color: #ffa500;
+}
+html:root .color-orangebold {
+  color: #ffa500;
   font-weight: bold;
 }
 html:root .color-purple {
@@ -73,6 +115,13 @@ html:root .color-silver {
 }
 html:root .color-silverbold {
   color: #c0c0c0;
+  font-weight: bold;
+}
+html:root .color-teal {
+  color: #008080;
+}
+html:root .color-tealbold {
+  color: #008080;
   font-weight: bold;
 }
 html:root .color-white {
