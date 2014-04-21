@@ -1,9 +1,8 @@
-globalize.css
-=============
+# [globalize.css](https://github.com/BYODKM/globalize.css/blob/master/stylesheets/globalize.css)
 
 This is the Object-oriented [Stylus](http://learnboost.github.io/stylus/) library you can use _"everywhere"_. Because these classes are truly solid and reliable.
 
-Like,
+Looks like these.
 
 ```
 .text-center { text-align: center; }
@@ -11,9 +10,7 @@ Like,
 .width-full { width: 100%; }
 ```
 
-I guess you've got the idea, right?
-
-Feel free to extend it, but not to fix it.
+Feel free to extend it, but NOT to fix it.
 
 ## License
 
