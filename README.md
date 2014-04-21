@@ -18,5 +18,5 @@ Under MIT License.
 
 ## Limitations
 
-* Drop support for IE8. It's not difficult to fix, but we don't want to.
-* Keep CSS specificity low as possible outside of this library. If it's hard, you should give higher specificity for this than others. (e.g. Replace `html:root` with `html#root`)
+* Drop support for IE8 and below.
+* Keep CSS specificity low as possible outside of this library. If it's hard, you can replace `html:root` with `html#root` in this library. This is also fix old IEs support.
