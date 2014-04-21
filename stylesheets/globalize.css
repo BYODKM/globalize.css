@@ -1,7 +1,7 @@
 /* globalize.css v1 | MIT License | github.com/BYODKM/globalize.css */
 @charset "utf-8";
 /**
- * Box Group
+ * BOX GROUP
  */
 html:root .box-border {
   box-sizing: border-box;
@@ -10,7 +10,7 @@ html:root .box-content {
   box-sizing: content-box;
 }
 /**
- * Color Group
+ * CLEAR GROUP
  */
 html:root .clear-both {
   clear: both;
@@ -27,7 +27,7 @@ html:root .clearfix:after {
   clear: both;
 }
 /**
- * Color Group
+ * COLOR GROUP
  */
 html:root .color-black {
   color: #000;
@@ -100,7 +100,7 @@ html:root .color-yellowbold {
   font-weight: bold;
 }
 /**
- * Cursor Group
+ * CURSOR GROUP
  */
 html:root .cursor-default {
   cursor: default;
@@ -121,7 +121,7 @@ html:root .cursor-deny {
   cursor: not-allowed;
 }
 /**
- * Display Group
+ * DISPLAY GROUP
  */
 html:root .display-none {
   display: none !important;
@@ -133,7 +133,7 @@ html:root .display-inlineblock {
   display: inline-block;
 }
 /**
- * Float Group
+ * FLOAT GROUP
  */
 html:root .float-left {
   float: left;
@@ -149,7 +149,7 @@ html:root .float-wrapper {
   overflow: hidden;
 }
 /**
- * Font Group
+ * FONT GROUP
  */
 html:root .font-serif {
   font-family: serif;
@@ -188,7 +188,7 @@ html:root .font-xxlarge {
   font-size: 24px;
 }
 /**
- * Lineheight Group
+ * LINEHEIGHT GROUP
  */
 html:root .lineheight-narrow {
   line-height: 1;
@@ -200,13 +200,13 @@ html:root .lineheight-wide {
   line-height: 1.6;
 }
 /**
- * Margin Group
+ * MARGIN GROUP
  */
 /**
- * Padding Group
+ * PADDING GROUP
  */
 /**
- * Position Group
+ * POSITION GROUP
  */
 html:root .position-static {
   position: static;
@@ -246,7 +246,7 @@ html:root .position-absolute-b0l0 {
   left: 0;
 }
 /**
- * Table Group
+ * TABLE GROUP
  */
 html:root .table-auto {
   table-layout: auto;
@@ -258,7 +258,7 @@ html:root .table-thbold th {
   font-weight: bold;
 }
 /**
- * Text Group
+ * TEXT GROUP
  */
 html:root .text-left {
   text-align: left;
@@ -276,7 +276,7 @@ html:root .text-linethrough {
   text-decoration: line-through;
 }
 /**
- * Vertical Group
+ * VERTICAL GROUP
  */
 html:root .vertical-top {
   vertical-align: top;
@@ -288,7 +288,7 @@ html:root .vertical-bottom {
   vertical-align: bottom;
 }
 /**
- * Width Group
+ * WIDTH GROUP
  */
 html:root .width-auto {
   width: auto;
