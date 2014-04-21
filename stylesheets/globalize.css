@@ -1,37 +1,136 @@
 /* globalize.css v1 | MIT License | github.com/BYODKM/globalize.css */
 @charset "utf-8";
 /**
+ * Box Group
+ */
+html:root .box-border {
+  box-sizing: border-box;
+}
+html:root .box-content {
+  box-sizing: content-box;
+}
+/**
+ * Color Group
+ */
+html:root .clear-both {
+  clear: both;
+}
+html:root .clear-fix:before,
+html:root .clear-fix:after,
+html:root .clearfix:before,
+html:root .clearfix:after {
+  content: " ";
+  display: table;
+}
+html:root .clear-fix:after,
+html:root .clearfix:after {
+  clear: both;
+}
+/**
  * Color Group
  */
 html:root .color-black {
   color: #000;
 }
+html:root .color-blackbold {
+  color: #000;
+  font-weight: bold;
+}
 html:root .color-blue {
   color: #00f;
+}
+html:root .color-bluebold {
+  color: #00f;
+  font-weight: bold;
 }
 html:root .color-gray {
   color: #808080;
 }
-html:root .color-green {
-  color: #008000;
+html:root .color-graybold {
+  color: #808080;
+  font-weight: bold;
+}
+html:root .color-gray {
+  color: #808080;
+}
+html:root .color-graybold {
+  color: #808080;
+  font-weight: bold;
+}
+html:root .color-pink {
+  color: #ffc0cb;
+}
+html:root .color-pinkbold {
+  color: #ffc0cb;
+  font-weight: bold;
+}
+html:root .color-purple {
+  color: #800080;
+}
+html:root .color-purplebold {
+  color: #800080;
+  font-weight: bold;
 }
 html:root .color-red {
   color: #f00;
 }
+html:root .color-redbold {
+  color: #f00;
+  font-weight: bold;
+}
+html:root .color-silver {
+  color: #c0c0c0;
+}
+html:root .color-silverbold {
+  color: #c0c0c0;
+  font-weight: bold;
+}
 html:root .color-white {
   color: #fff;
 }
+html:root .color-whitebold {
+  color: #fff;
+  font-weight: bold;
+}
 html:root .color-yellow {
   color: #ff0;
+}
+html:root .color-yellowbold {
+  color: #ff0;
+  font-weight: bold;
+}
+/**
+ * Cursor Group
+ */
+html:root .cursor-default {
+  cursor: default;
+}
+html:root .cursor-pointer {
+  cursor: pointer;
+}
+html:root .cursor-help {
+  cursor: help;
+}
+html:root .cursor-left {
+  cursor: w-resize;
+}
+html:root .cursor-right {
+  cursor: e-resize;
+}
+html:root .cursor-deny {
+  cursor: not-allowed;
 }
 /**
  * Display Group
  */
 html:root .display-none {
-  display: none;
+  display: none !important;
 }
 html:root .display-block {
   display: block;
+}
+html:root .display-inlineblock {
+  display: inline-block;
 }
 /**
  * Float Group
@@ -41,6 +140,9 @@ html:root .float-left {
 }
 html:root .float-right {
   float: right;
+}
+html:root .float-none {
+  float: none;
 }
 html:root .float-wrapper {
   width: 100%;
@@ -61,27 +163,48 @@ html:root .font-monospace {
 html:root .font-bold {
   font-weight: bold;
 }
+html:root .font-zero {
+  font-size: 0;
+}
 html:root .font-xxsmall {
-  font-size: xx-small;
+  font-size: 7px;
 }
 html:root .font-xsmall {
-  font-size: x-small;
+  font-size: 10px;
 }
 html:root .font-small {
-  font-size: small;
+  font-size: 13px;
 }
 html:root .font-medium {
-  font-size: medium;
+  font-size: 16px;
 }
 html:root .font-large {
-  font-size: large;
+  font-size: 19px;
 }
 html:root .font-xlarge {
-  font-size: x-large;
+  font-size: 21px;
 }
 html:root .font-xxlarge {
-  font-size: xx-large;
+  font-size: 24px;
 }
+/**
+ * Lineheight Group
+ */
+html:root .lineheight-narrow {
+  line-height: 1;
+}
+html:root .lineheight-middle {
+  line-height: 1.3;
+}
+html:root .lineheight-wide {
+  line-height: 1.6;
+}
+/**
+ * Margin Group
+ */
+/**
+ * Padding Group
+ */
 /**
  * Position Group
  */
@@ -98,9 +221,29 @@ html:root .position-absolute-t0 {
   position: absolute;
   top: 0;
 }
+html:root .position-absolute-t0r0 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+html:root .position-absolute-t0l0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 html:root .position-absolute-b0 {
   position: absolute;
   bottom: 0;
+}
+html:root .position-absolute-b0r0 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+html:root .position-absolute-b0l0 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 /**
  * Table Group
@@ -110,6 +253,9 @@ html:root .table-auto {
 }
 html:root .table-fixed {
   table-layout: fixed;
+}
+html:root .table-thbold th {
+  font-weight: bold;
 }
 /**
  * Text Group
@@ -122,6 +268,12 @@ html:root .text-center {
 }
 html:root .text-right {
   text-align: right;
+}
+html:root .text-underline {
+  text-decoration: underline;
+}
+html:root .text-linethrough {
+  text-decoration: line-through;
 }
 /**
  * Vertical Group
