@@ -1,8 +1,6 @@
 /* globalize.css v1.01 | MIT License | github.com/BYODKM/globalize.css */
 @charset "utf-8";
-/**
- * VERTICAL GROUP
- */
+/* vertical.styl */
 html:root .vertical-top {
   vertical-align: top;
 }
@@ -12,9 +10,7 @@ html:root .vertical-middle {
 html:root .vertical-bottom {
   vertical-align: bottom;
 }
-/**
- * TEXT GROUP
- */
+/* text.styl */
 html:root .text-left {
   text-align: left;
 }
@@ -39,9 +35,7 @@ html:root .text-lowercase {
 html:root .text-breakall {
   word-break: break-all;
 }
-/**
- * CURSOR GROUP
- */
+/* cursor.styl */
 html:root .cursor-default {
   cursor: default;
 }
@@ -60,9 +54,7 @@ html:root .cursor-right {
 html:root .cursor-deny {
   cursor: not-allowed;
 }
-/**
- * COLOR GROUP
- */
+/* color.styl */
 html:root .color-black {
   color: #000;
 }
@@ -133,9 +125,7 @@ html:root .color-yellowbold {
   color: #ff0;
   font-weight: bold;
 }
-/**
- * FONT GROUP
- */
+/* font.styl */
 html:root .font-serif {
   font-family: serif;
 }
@@ -175,9 +165,7 @@ html:root .font-xlarge {
 html:root .font-xxlarge {
   font-size: xx-large;
 }
-/**
- * FLOAT GROUP
- */
+/* float.styl */
 html:root .float-left {
   float: left;
 }
@@ -191,9 +179,7 @@ html:root .float-wrapper {
   width: 100%;
   overflow: hidden;
 }
-/**
- * DISPLAY GROUP
- */
+/* display.styl */
 html:root .display-none {
   display: none !important;
 }
@@ -203,9 +189,7 @@ html:root .display-block {
 html:root .display-inlineblock {
   display: inline-block;
 }
-/**
- * WIDTH GROUP
- */
+/* width.styl */
 html:root .width-auto {
   width: auto;
 }
@@ -215,9 +199,7 @@ html:root .width-full {
 html:root .width-half {
   width: 50%;
 }
-/**
- * TABLE GROUP
- */
+/* table.styl */
 html:root .table-auto {
   table-layout: auto;
 }
@@ -227,9 +209,7 @@ html:root .table-fixed {
 html:root .table-thbold th {
   font-weight: bold;
 }
-/**
- * POSITION GROUP
- */
+/* position.styl */
 html:root .position-static {
   position: static;
 }
@@ -267,9 +247,7 @@ html:root .position-absolute-b0l0 {
   bottom: 0;
   left: 0;
 }
-/**
- * CLEAR GROUP
- */
+/* clear.styl */
 html:root .clear-both {
   clear: both;
 }
@@ -283,17 +261,4 @@ html:root .clearfix:after {
 html:root .clear-fix:after,
 html:root .clearfix:after {
   clear: both;
-}
-/**
- * BOX GROUP
- */
-html:root .box-border {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-html:root .box-content {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
 }
