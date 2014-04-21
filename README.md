@@ -5,9 +5,14 @@ This is the Object-oriented [Stylus](http://learnboost.github.io/stylus/) librar
 Looks like these.
 
 ```
-.text-center { text-align: center; }
-.vertical-middle { vertical-align: middle; }
-.width-full { width: 100%; }
+.cursor-pointer {  cursor: pointer; }
+.display-none {  display: none; }
+.float-left {  float: left; }
+.font-bold {  font-weight: bold; }
+.table-fixed {  table-layout: fixed; }
+.text-center {  text-align: center; }
+.vertical-middle {  vertical-align: middle; }
+.width-full {  width: 100%; }
 ```
 
 Feel free to extend it, but NOT to fix it.
