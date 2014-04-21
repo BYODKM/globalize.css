@@ -163,6 +163,9 @@ html:root .font-monospace {
 html:root .font-bold {
   font-weight: bold;
 }
+html:root .font-italic {
+  font-weight: italic;
+}
 html:root .font-zero {
   font-size: 0;
 }
@@ -280,6 +283,15 @@ html:root .text-underline {
 }
 html:root .text-linethrough {
   text-decoration: line-through;
+}
+html:root .text-uppercase {
+  text-transform: uppercase;
+}
+html:root .text-lowercase {
+  text-transform: lowercase;
+}
+html:root .text-breakall {
+  word-break: break-all;
 }
 /**
  * VERTICAL GROUP
