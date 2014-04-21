@@ -1,7 +1,7 @@
 /* globalize.css v1 | MIT License | github.com/BYODKM/globalize.css */
 @charset "utf-8";
 /**
- * .color- Group
+ * Color Group
  */
 html:root .color-black {
   color: #000;
@@ -25,7 +25,7 @@ html:root .color-yellow {
   color: #ff0;
 }
 /**
- * .display- Group
+ * Display Group
  */
 html:root .display-none {
   display: none;
@@ -34,7 +34,7 @@ html:root .display-block {
   display: block;
 }
 /**
- * .float- Group
+ * Float Group
  */
 html:root .float-left {
   float: left;
@@ -47,43 +47,43 @@ html:root .float-wrapper {
   overflow: hidden;
 }
 /**
- * .font- Group
+ * Font Group
  */
 html:root .font-serif {
-  font-family: Times, "Times New Roman", serif;
+  font-family: serif;
 }
 html:root .font-sansserif {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
 }
 html:root .font-monospace {
-  font-family: "Courier New", Courier, monospace;
+  font-family: monospace;
 }
 html:root .font-bold {
   font-weight: bold;
 }
 html:root .font-xxsmall {
-  font-size: 10px;
+  font-size: xx-small;
 }
 html:root .font-xsmall {
-  font-size: 12px;
+  font-size: x-small;
 }
 html:root .font-small {
-  font-size: 14px;
+  font-size: small;
 }
 html:root .font-medium {
-  font-size: 16px;
+  font-size: medium;
 }
 html:root .font-large {
-  font-size: 18px;
+  font-size: large;
 }
 html:root .font-xlarge {
-  font-size: 20px;
+  font-size: x-large;
 }
 html:root .font-xxlarge {
-  font-size: 22px;
+  font-size: xx-large;
 }
 /**
- * .position- Group
+ * Position Group
  */
 html:root .position-static {
   position: static;
@@ -103,7 +103,7 @@ html:root .position-absolute-b0 {
   bottom: 0;
 }
 /**
- * .table- Group
+ * Table Group
  */
 html:root .table-auto {
   table-layout: auto;
@@ -112,7 +112,7 @@ html:root .table-fixed {
   table-layout: fixed;
 }
 /**
- * .text- Group
+ * Text Group
  */
 html:root .text-left {
   text-align: left;
@@ -124,7 +124,7 @@ html:root .text-right {
   text-align: right;
 }
 /**
- * .vertical- Group
+ * Vertical Group
  */
 html:root .vertical-top {
   vertical-align: top;
@@ -136,7 +136,7 @@ html:root .vertical-bottom {
   vertical-align: bottom;
 }
 /**
- * .width- Group
+ * Width Group
  */
 html:root .width-auto {
   width: auto;
