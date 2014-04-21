@@ -195,30 +195,6 @@ html:root .font-xxlarge {
   font-size: xx-large;
 }
 /**
- * LINEHEIGHT GROUP
- */
-html:root .lineheight-narrow {
-  line-height: 1;
-}
-html:root .lineheight-middle {
-  line-height: 1.3;
-}
-html:root .lineheight-wide {
-  line-height: 1.6;
-}
-/**
- * MARGIN GROUP
- */
-html:root .margin-none {
-  margin: 0;
-}
-/**
- * PADDING GROUP
- */
-html:root .padding-none {
-  padding: 0;
-}
-/**
  * POSITION GROUP
  */
 html:root .position-static {
