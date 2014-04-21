@@ -1,58 +1,22 @@
 /* globalize.css v1.01 | MIT License | github.com/BYODKM/globalize.css */
 @charset "utf-8";
-/* vertical.styl */
-html:root .vertical-top {
-  vertical-align: top;
+/* clear.styl */
+html:root .clear {
+  clear: both;
 }
-html:root .vertical-middle {
-  vertical-align: middle;
+html:root .clear-both {
+  clear: both;
 }
-html:root .vertical-bottom {
-  vertical-align: bottom;
+html:root .clear-fix:before,
+html:root .clear-fix:after,
+html:root .clearfix:before,
+html:root .clearfix:after {
+  content: " ";
+  display: table;
 }
-/* text.styl */
-html:root .text-left {
-  text-align: left;
-}
-html:root .text-center {
-  text-align: center;
-}
-html:root .text-right {
-  text-align: right;
-}
-html:root .text-underline {
-  text-decoration: underline;
-}
-html:root .text-linethrough {
-  text-decoration: line-through;
-}
-html:root .text-uppercase {
-  text-transform: uppercase;
-}
-html:root .text-lowercase {
-  text-transform: lowercase;
-}
-html:root .text-breakall {
-  word-break: break-all;
-}
-/* cursor.styl */
-html:root .cursor-default {
-  cursor: default;
-}
-html:root .cursor-pointer {
-  cursor: pointer;
-}
-html:root .cursor-help {
-  cursor: help;
-}
-html:root .cursor-left {
-  cursor: w-resize;
-}
-html:root .cursor-right {
-  cursor: e-resize;
-}
-html:root .cursor-deny {
-  cursor: not-allowed;
+html:root .clear-fix:after,
+html:root .clearfix:after {
+  clear: both;
 }
 /* color.styl */
 html:root .color-black {
@@ -125,6 +89,49 @@ html:root .color-yellowbold {
   color: #ff0;
   font-weight: bold;
 }
+/* cursor.styl */
+html:root .cursor-default {
+  cursor: default;
+}
+html:root .cursor-pointer {
+  cursor: pointer;
+}
+html:root .cursor-help {
+  cursor: help;
+}
+html:root .cursor-left {
+  cursor: w-resize;
+}
+html:root .cursor-right {
+  cursor: e-resize;
+}
+html:root .cursor-deny {
+  cursor: not-allowed;
+}
+/* display.styl */
+html:root .display-none {
+  display: none !important;
+}
+html:root .display-block {
+  display: block;
+}
+html:root .display-inlineblock {
+  display: inline-block;
+}
+/* float.styl */
+html:root .float-left {
+  float: left;
+}
+html:root .float-right {
+  float: right;
+}
+html:root .float-none {
+  float: none;
+}
+html:root .float-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
 /* font.styl */
 html:root .font-serif {
   font-family: serif;
@@ -165,50 +172,6 @@ html:root .font-xlarge {
 html:root .font-xxlarge {
   font-size: xx-large;
 }
-/* float.styl */
-html:root .float-left {
-  float: left;
-}
-html:root .float-right {
-  float: right;
-}
-html:root .float-none {
-  float: none;
-}
-html:root .float-wrapper {
-  width: 100%;
-  overflow: hidden;
-}
-/* display.styl */
-html:root .display-none {
-  display: none !important;
-}
-html:root .display-block {
-  display: block;
-}
-html:root .display-inlineblock {
-  display: inline-block;
-}
-/* width.styl */
-html:root .width-auto {
-  width: auto;
-}
-html:root .width-full {
-  width: 100%;
-}
-html:root .width-half {
-  width: 50%;
-}
-/* table.styl */
-html:root .table-auto {
-  table-layout: auto;
-}
-html:root .table-fixed {
-  table-layout: fixed;
-}
-html:root .table-thbold th {
-  font-weight: bold;
-}
 /* position.styl */
 html:root .position-static {
   position: static;
@@ -247,18 +210,52 @@ html:root .position-absolute-b0l0 {
   bottom: 0;
   left: 0;
 }
-/* clear.styl */
-html:root .clear-both {
-  clear: both;
+/* table.styl */
+html:root .table-auto {
+  table-layout: auto;
 }
-html:root .clear-fix:before,
-html:root .clear-fix:after,
-html:root .clearfix:before,
-html:root .clearfix:after {
-  content: " ";
-  display: table;
+html:root .table-fixed {
+  table-layout: fixed;
 }
-html:root .clear-fix:after,
-html:root .clearfix:after {
-  clear: both;
+/* text.styl */
+html:root .text-left {
+  text-align: left;
+}
+html:root .text-center {
+  text-align: center;
+}
+html:root .text-right {
+  text-align: right;
+}
+html:root .text-underline {
+  text-decoration: underline;
+}
+html:root .text-linethrough {
+  text-decoration: line-through;
+}
+html:root .text-uppercase {
+  text-transform: uppercase;
+}
+html:root .text-lowercase {
+  text-transform: lowercase;
+}
+/* vertical.styl */
+html:root .vertical-top {
+  vertical-align: top;
+}
+html:root .vertical-middle {
+  vertical-align: middle;
+}
+html:root .vertical-bottom {
+  vertical-align: bottom;
+}
+/* width.styl */
+html:root .width-auto {
+  width: auto;
+}
+html:root .width-full {
+  width: 100%;
+}
+html:root .width-half {
+  width: 50%;
 }
