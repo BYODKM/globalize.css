@@ -1,34 +1,64 @@
 /* globalize.css v1.01 | MIT License | github.com/BYODKM/globalize.css */
 @charset "utf-8";
 /**
- * BOX GROUP
+ * VERTICAL GROUP
  */
-html:root .box-border {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+html:root .vertical-top {
+  vertical-align: top;
 }
-html:root .box-content {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
+html:root .vertical-middle {
+  vertical-align: middle;
+}
+html:root .vertical-bottom {
+  vertical-align: bottom;
 }
 /**
- * CLEAR GROUP
+ * TEXT GROUP
  */
-html:root .clear-both {
-  clear: both;
+html:root .text-left {
+  text-align: left;
 }
-html:root .clear-fix:before,
-html:root .clear-fix:after,
-html:root .clearfix:before,
-html:root .clearfix:after {
-  content: " ";
-  display: table;
+html:root .text-center {
+  text-align: center;
 }
-html:root .clear-fix:after,
-html:root .clearfix:after {
-  clear: both;
+html:root .text-right {
+  text-align: right;
+}
+html:root .text-underline {
+  text-decoration: underline;
+}
+html:root .text-linethrough {
+  text-decoration: line-through;
+}
+html:root .text-uppercase {
+  text-transform: uppercase;
+}
+html:root .text-lowercase {
+  text-transform: lowercase;
+}
+html:root .text-breakall {
+  word-break: break-all;
+}
+/**
+ * CURSOR GROUP
+ */
+html:root .cursor-default {
+  cursor: default;
+}
+html:root .cursor-pointer {
+  cursor: pointer;
+}
+html:root .cursor-help {
+  cursor: help;
+}
+html:root .cursor-left {
+  cursor: w-resize;
+}
+html:root .cursor-right {
+  cursor: e-resize;
+}
+html:root .cursor-deny {
+  cursor: not-allowed;
 }
 /**
  * COLOR GROUP
@@ -104,55 +134,6 @@ html:root .color-yellowbold {
   font-weight: bold;
 }
 /**
- * CURSOR GROUP
- */
-html:root .cursor-default {
-  cursor: default;
-}
-html:root .cursor-pointer {
-  cursor: pointer;
-}
-html:root .cursor-help {
-  cursor: help;
-}
-html:root .cursor-left {
-  cursor: w-resize;
-}
-html:root .cursor-right {
-  cursor: e-resize;
-}
-html:root .cursor-deny {
-  cursor: not-allowed;
-}
-/**
- * DISPLAY GROUP
- */
-html:root .display-none {
-  display: none !important;
-}
-html:root .display-block {
-  display: block;
-}
-html:root .display-inlineblock {
-  display: inline-block;
-}
-/**
- * FLOAT GROUP
- */
-html:root .float-left {
-  float: left;
-}
-html:root .float-right {
-  float: right;
-}
-html:root .float-none {
-  float: none;
-}
-html:root .float-wrapper {
-  width: 100%;
-  overflow: hidden;
-}
-/**
  * FONT GROUP
  */
 html:root .font-serif {
@@ -195,6 +176,58 @@ html:root .font-xxlarge {
   font-size: xx-large;
 }
 /**
+ * FLOAT GROUP
+ */
+html:root .float-left {
+  float: left;
+}
+html:root .float-right {
+  float: right;
+}
+html:root .float-none {
+  float: none;
+}
+html:root .float-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+/**
+ * DISPLAY GROUP
+ */
+html:root .display-none {
+  display: none !important;
+}
+html:root .display-block {
+  display: block;
+}
+html:root .display-inlineblock {
+  display: inline-block;
+}
+/**
+ * WIDTH GROUP
+ */
+html:root .width-auto {
+  width: auto;
+}
+html:root .width-full {
+  width: 100%;
+}
+html:root .width-half {
+  width: 50%;
+}
+/**
+ * TABLE GROUP
+ */
+html:root .table-auto {
+  table-layout: auto;
+}
+html:root .table-fixed {
+  table-layout: fixed;
+}
+html:root .table-thbold th {
+  font-weight: bold;
+}
+/**
  * POSITION GROUP
  */
 html:root .position-static {
@@ -235,65 +268,32 @@ html:root .position-absolute-b0l0 {
   left: 0;
 }
 /**
- * TABLE GROUP
+ * CLEAR GROUP
  */
-html:root .table-auto {
-  table-layout: auto;
+html:root .clear-both {
+  clear: both;
 }
-html:root .table-fixed {
-  table-layout: fixed;
+html:root .clear-fix:before,
+html:root .clear-fix:after,
+html:root .clearfix:before,
+html:root .clearfix:after {
+  content: " ";
+  display: table;
 }
-html:root .table-thbold th {
-  font-weight: bold;
+html:root .clear-fix:after,
+html:root .clearfix:after {
+  clear: both;
 }
 /**
- * TEXT GROUP
+ * BOX GROUP
  */
-html:root .text-left {
-  text-align: left;
+html:root .box-border {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
-html:root .text-center {
-  text-align: center;
-}
-html:root .text-right {
-  text-align: right;
-}
-html:root .text-underline {
-  text-decoration: underline;
-}
-html:root .text-linethrough {
-  text-decoration: line-through;
-}
-html:root .text-uppercase {
-  text-transform: uppercase;
-}
-html:root .text-lowercase {
-  text-transform: lowercase;
-}
-html:root .text-breakall {
-  word-break: break-all;
-}
-/**
- * VERTICAL GROUP
- */
-html:root .vertical-top {
-  vertical-align: top;
-}
-html:root .vertical-middle {
-  vertical-align: middle;
-}
-html:root .vertical-bottom {
-  vertical-align: bottom;
-}
-/**
- * WIDTH GROUP
- */
-html:root .width-auto {
-  width: auto;
-}
-html:root .width-full {
-  width: 100%;
-}
-html:root .width-half {
-  width: 50%;
+html:root .box-content {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
 }
