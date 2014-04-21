@@ -15,6 +15,8 @@ Looks like these.
 .width-full { width: 100%; }
 ```
 
+You get the idea, right?
+
 Feel free to extend it, but NOT to fix it.
 
 ## License
