@@ -19,6 +19,10 @@ You get the idea, right?
 
 Feel free to extend it, but NOT to fix it.
 
+## Option
+
+- [variables.styl](https://github.com/BYODKM/globalize.css/blob/master/stylesheets/variables.styl) support (If it's enabled in [Stylus](http://learnboost.github.io/stylus/) environment, `.font-small` yields `font-size: 13px` etc..)
+
 ## License
 
 Under MIT License.
