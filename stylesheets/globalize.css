@@ -5,48 +5,65 @@
 /**
  * clear.styl
  */
-html:root .clear-both { clear: both; }
+html:root .clear-both      { clear: both; }
 html:root .clear-fix:before,
-html:root .clear-fix:after { content: " ";  display: table; }
+html:root .clear-fix:after { content: " "; display: table; }
 html:root .clear-fix:after { clear: both; }
 
 /**
  * color.styl
  */
-html:root .color-aqua        { color: #0ff; }
-html:root .color-aquabold    { color: #0ff; font-weight: bold; }
-html:root .color-black       { color: #000; }
-html:root .color-blackbold   { color: #000; font-weight: bold; }
-html:root .color-blue        { color: #00f; }
-html:root .color-bluebold    { color: #00f; font-weight: bold; }
-html:root .color-fuchsia     { color: #f0f; }
-html:root .color-fuchsiabold { color: #f0f; font-weight: bold; }
-html:root .color-gray        { color: #808080; }
-html:root .color-graybold    { color: #808080; font-weight: bold; }
-html:root .color-green       { color: #008000; }
-html:root .color-greenbold   { color: #008000; font-weight: bold; }
-html:root .color-lime        { color: #0f0; }
-html:root .color-limebold    { color: #0f0; font-weight: bold; }
-html:root .color-maroon      { color: #800000; }
-html:root .color-maroonbold  { color: #800000; font-weight: bold; }
-html:root .color-navy        { color: #000080; }
-html:root .color-navybold    { color: #000080; font-weight: bold; }
-html:root .color-olive       { color: #808000; }
-html:root .color-olivebold   { color: #808000; font-weight: bold; }
-html:root .color-orange      { color: #ffa500; }
-html:root .color-orangebold  { color: #ffa500; font-weight: bold; }
-html:root .color-purple      { color: #800080; }
-html:root .color-purplebold  { color: #800080; font-weight: bold; }
-html:root .color-red         { color: #f00; }
-html:root .color-redbold     { color: #f00; font-weight: bold; }
-html:root .color-silver      { color: #c0c0c0; }
-html:root .color-silverbold  { color: #c0c0c0; font-weight: bold; }
-html:root .color-teal        { color: #008080; }
-html:root .color-tealbold    { color: #008080; font-weight: bold; }
-html:root .color-white       { color: #fff; }
-html:root .color-whitebold   { color: #fff; font-weight: bold; }
-html:root .color-yellow      { color: #ff0; }
-html:root .color-yellowbold  { color: #ff0; font-weight: bold; }
+html:root .color-aqua,
+html:root .color-aquabold    { color: #0ff; }
+html:root .color-black,
+html:root .color-blackbold   { color: #000; }
+html:root .color-blue,
+html:root .color-bluebold    { color: #00f; }
+html:root .color-fuchsia,
+html:root .color-fuchsiabold { color: #f0f; }
+html:root .color-gray,
+html:root .color-graybold    { color: #808080; }
+html:root .color-green,
+html:root .color-greenbold   { color: #008000; }
+html:root .color-lime,
+html:root .color-limebold    { color: #0f0; }
+html:root .color-maroon,
+html:root .color-maroonbold  { color: #800000; }
+html:root .color-navy,
+html:root .color-navybold    { color: #000080; }
+html:root .color-olive,
+html:root .color-olivebold   { color: #808000; }
+html:root .color-orange,
+html:root .color-orangebold  { color: #ffa500; }
+html:root .color-purple,
+html:root .color-purplebold  { color: #800080; }
+html:root .color-red,
+html:root .color-redbold     { color: #f00; }
+html:root .color-silver,
+html:root .color-silverbold  { color: #c0c0c0; }
+html:root .color-teal,
+html:root .color-tealbold    { color: #008080; }
+html:root .color-white,
+html:root .color-whitebold   { color: #fff; }
+html:root .color-yellow,
+html:root .color-yellowbold  { color: #ff0; }
+html:root .color-aquabold,
+html:root .color-blackbold,
+html:root .color-bluebold,
+html:root .color-fuchsiabold,
+html:root .color-graybold,
+html:root .color-greenbold,
+html:root .color-limebold,
+html:root .color-maroonbold,
+html:root .color-navybold,
+html:root .color-olivebold,
+html:root .color-orangebold,
+html:root .color-purplebold,
+html:root .color-redbold,
+html:root .color-silverbold,
+html:root .color-tealbold,
+html:root .color-whitebold,
+html:root .color-yellowbold  { font-weight: bold; }
 
 /**
  * cursor.styl
