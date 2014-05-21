@@ -21,7 +21,7 @@ Feel free to extend it, but NOT to fix it.
 
 ## Option
 
-- [variables.styl](https://github.com/BYODKM/globalize.css/blob/master/stylesheets/variables.styl) support. If it's enabled in [Stylus](http://learnboost.github.io/stylus/) environment, you'll get `.font-small { font-size: 13px; }`.
+- [variables](https://github.com/BYODKM/globalize.css/blob/master/stylesheets/variables.styl) support. If it's enabled in [Stylus](http://learnboost.github.io/stylus/) environment, you'll get `.font-small { font-size: 13px; }`.
 
 ## Browser Support
 
