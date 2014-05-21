@@ -25,7 +25,7 @@ Feel free to extend it, but NOT to fix it.
 
 ## Browser Support
 
-All modern browser except IE8 and below. (You can fix it easily, if you want.)
+All modern browser except IE8 and below. You can fix it easily, if you want.
 
 ## Notice
 
