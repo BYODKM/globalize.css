@@ -29,7 +29,7 @@ Supports all modern browsers except IE8 and below. You can fix it easily, if you
 
 ## Notice
 
-Keep CSS specificity low as possible outside of this library. If it's hard, you can replace `html:root` with `html#root` in globalize.css. This replacement fix old IE support.
+Keep CSS specificity low as possible outside of this library. If it's hard, you can replace `html:root` with `html#root` in globalize.css. This replacement will fix old IE support.
 
 ## License
 
