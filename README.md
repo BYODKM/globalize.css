@@ -33,4 +33,4 @@ Keep CSS specificity low as possible outside of this library. If it's hard, you 
 
 ## License
 
-Under MIT License.
+MIT License.
