@@ -2,7 +2,7 @@
 
 This is the Object-oriented [Stylus](http://learnboost.github.io/stylus/) library you can use _"everywhere"_. Because these classes are truly solid and reliable.
 
-Looks like these.
+Looks like this.
 
 ```
 .cursor-pointer  { cursor: pointer; }
