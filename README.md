@@ -21,7 +21,8 @@ Feel free to extend it. But __NOT__ to fix it.
 
 ## Limitation
 
-IE 8 is not supported on purpose.
+- IE 8 is not supported on purpose.
+- You need to add `.html` class to `html` element for more specificity.
 
 ## License
 
