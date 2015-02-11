@@ -1,0 +1,12 @@
+{
+  "name": "globalize.css",
+  "version": "1.0.0",
+  "main": "dist/globalize.css",
+  "author": "Tomohiro Kasuga",
+  "ignore": [
+    "gruntfile.coffee",
+    "node_modules",
+    "package.json",
+    "src"
+  ]
+}
