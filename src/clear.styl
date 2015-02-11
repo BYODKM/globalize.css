@@ -10,4 +10,11 @@ html.html:root .clear
     clear both
 
   &--fix
-    clearfix()
+
+    &:before
+    &:after
+      content ""
+      display table
+
+    &:after
+      clear both

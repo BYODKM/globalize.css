@@ -7,9 +7,6 @@ html.html:root .clear--right {
 html.html:root .clear--both {
   clear: both;
 }
-html.html:root .clear--fix {
-  zoom: 1;
-}
 html.html:root .clear--fix:before,
 html.html:root .clear--fix:after {
   content: "";
