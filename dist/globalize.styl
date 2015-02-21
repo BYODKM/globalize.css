@@ -89,23 +89,77 @@ html.html:root .color
 
 html.html:root .cursor
 
+  &--auto
+    cursor auto
+
   &--default
     cursor default
 
   &--pointer
     cursor pointer
 
+  &--crosshair
+    cursor crosshair
+
+  &--move
+    cursor move
+
+  &--text
+    cursor text
+
+  &--wait
+    cursor wait
+
   &--help
     cursor help
 
-  &--left
+  &--n-resize
+    cursor n-resize
+
+  &--s-resize
+    cursor s-resize
+
+  &--w-resize
     cursor w-resize
 
-  &--right
+  &--e-resize
     cursor e-resize
 
-  &--deny
+  &--ne-resize
+    cursor ne-resize
+
+  &--nw-resize
+    cursor nw-resize
+
+  &--se-resize
+    cursor se-resize
+
+  &--sw-resize
+    cursor sw-resize
+
+  &--progress
+    cursor progress
+
+  &--hand
+    cursor hand
+
+  &--no-drop
+    cursor no-drop
+
+  &--all-scroll
+    cursor all-scroll
+
+  &--col-resize
+    cursor col-resize
+
+  &--row-resize
+    cursor row-resize
+
+  &--not-allowed
     cursor not-allowed
+
+  &--vertical-text
+    cursor vertical-text
 
 html.html:root .display
 
@@ -175,7 +229,7 @@ html.html:root .height
   &--full
     height 100%
 
-html.html:root .lineheight
+html.html:root .line-height
 
   &--x-narrow
     line-height 1
@@ -192,6 +246,68 @@ html.html:root .lineheight
   &--xx-wide
     line-height 2
 
+html.html:root .list-style
+
+  &--none
+    list-style none
+
+  &--disc
+    list-style disc
+
+  &--circle
+    list-style circle
+
+  &--square
+    list-style square
+
+  &--lower-roman
+    list-style lower-roman
+
+  &--upper-roman
+    list-style upper-roman
+
+  &--lower-greek
+    list-style lower-greek
+
+  &--decimal
+    list-style decimal
+
+  &--decimal-leading-zero
+    list-style decimal-leading-zero
+
+  &--lower-latin
+    list-style lower-latin
+
+  &--upper-latin
+    list-style upper-latin
+
+  &--upper-alpha
+    list-style upper-alpha
+
+  &--cjk-ideographic
+    list-style cjk-ideographic
+
+  &--hiragana
+    list-style hiragana
+
+  &--katakana
+    list-style katakana
+
+  &--hiragana-iroha
+    list-style hiragana-iroha
+
+  &--katakana-iroha
+    list-style katakana-iroha
+
+  &--hebrew
+    list-style hebrew
+
+  &--armenian
+    list-style armenian
+
+  &--georgian
+    list-style georgian
+
 html.html:root .margin
 
   &--none
@@ -205,6 +321,11 @@ html.html:root .overflow
 
   &--hidden
     overflow hidden
+
+html.html:root .padding
+
+  &--none
+    padding 0
 
 html.html:root .table
 
@@ -238,15 +359,6 @@ html.html:root .text
     text-transform lowercase
 
 html.html:root .vertical
-
-  &--top,
-  &--middle,
-  &--bottom
-
-    thead,
-    tbody,
-    tfoot
-      vertical-align inherit
 
   &--top
     vertical-align top

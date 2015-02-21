@@ -81,23 +81,77 @@ html.html:root .color--pink {
 html.html:root .color--purple {
   color: #800080;
 }
+html.html:root .cursor--auto {
+  cursor: auto;
+}
 html.html:root .cursor--default {
   cursor: default;
 }
 html.html:root .cursor--pointer {
   cursor: pointer;
 }
+html.html:root .cursor--crosshair {
+  cursor: crosshair;
+}
+html.html:root .cursor--move {
+  cursor: move;
+}
+html.html:root .cursor--text {
+  cursor: text;
+}
+html.html:root .cursor--wait {
+  cursor: wait;
+}
 html.html:root .cursor--help {
   cursor: help;
 }
-html.html:root .cursor--left {
+html.html:root .cursor--n-resize {
+  cursor: n-resize;
+}
+html.html:root .cursor--s-resize {
+  cursor: s-resize;
+}
+html.html:root .cursor--w-resize {
   cursor: w-resize;
 }
-html.html:root .cursor--right {
+html.html:root .cursor--e-resize {
   cursor: e-resize;
 }
-html.html:root .cursor--deny {
+html.html:root .cursor--ne-resize {
+  cursor: ne-resize;
+}
+html.html:root .cursor--nw-resize {
+  cursor: nw-resize;
+}
+html.html:root .cursor--se-resize {
+  cursor: se-resize;
+}
+html.html:root .cursor--sw-resize {
+  cursor: sw-resize;
+}
+html.html:root .cursor--progress {
+  cursor: progress;
+}
+html.html:root .cursor--hand {
+  cursor: hand;
+}
+html.html:root .cursor--no-drop {
+  cursor: no-drop;
+}
+html.html:root .cursor--all-scroll {
+  cursor: all-scroll;
+}
+html.html:root .cursor--col-resize {
+  cursor: col-resize;
+}
+html.html:root .cursor--row-resize {
+  cursor: row-resize;
+}
+html.html:root .cursor--not-allowed {
   cursor: not-allowed;
+}
+html.html:root .cursor--vertical-text {
+  cursor: vertical-text;
 }
 html.html:root .display--none {
   display: none !important;
@@ -159,20 +213,80 @@ html.html:root .font--xx-large {
 html.html:root .height--full {
   height: 100%;
 }
-html.html:root .lineheight--x-narrow {
+html.html:root .line-height--x-narrow {
   line-height: 1;
 }
-html.html:root .lineheight--narrow {
+html.html:root .line-height--narrow {
   line-height: 1.25;
 }
-html.html:root .lineheight--wide {
+html.html:root .line-height--wide {
   line-height: 1.5;
 }
-html.html:root .lineheight--x-wide {
+html.html:root .line-height--x-wide {
   line-height: 1.75;
 }
-html.html:root .lineheight--xx-wide {
+html.html:root .line-height--xx-wide {
   line-height: 2;
+}
+html.html:root .list-style--none {
+  list-style: none;
+}
+html.html:root .list-style--disc {
+  list-style: disc;
+}
+html.html:root .list-style--circle {
+  list-style: circle;
+}
+html.html:root .list-style--square {
+  list-style: square;
+}
+html.html:root .list-style--lower-roman {
+  list-style: lower-roman;
+}
+html.html:root .list-style--upper-roman {
+  list-style: upper-roman;
+}
+html.html:root .list-style--lower-greek {
+  list-style: lower-greek;
+}
+html.html:root .list-style--decimal {
+  list-style: decimal;
+}
+html.html:root .list-style--decimal-leading-zero {
+  list-style: decimal-leading-zero;
+}
+html.html:root .list-style--lower-latin {
+  list-style: lower-latin;
+}
+html.html:root .list-style--upper-latin {
+  list-style: upper-latin;
+}
+html.html:root .list-style--upper-alpha {
+  list-style: upper-alpha;
+}
+html.html:root .list-style--cjk-ideographic {
+  list-style: cjk-ideographic;
+}
+html.html:root .list-style--hiragana {
+  list-style: hiragana;
+}
+html.html:root .list-style--katakana {
+  list-style: katakana;
+}
+html.html:root .list-style--hiragana-iroha {
+  list-style: hiragana-iroha;
+}
+html.html:root .list-style--katakana-iroha {
+  list-style: katakana-iroha;
+}
+html.html:root .list-style--hebrew {
+  list-style: hebrew;
+}
+html.html:root .list-style--armenian {
+  list-style: armenian;
+}
+html.html:root .list-style--georgian {
+  list-style: georgian;
 }
 html.html:root .margin--none {
   margin: 0;
@@ -183,6 +297,9 @@ html.html:root .margin--auto {
 }
 html.html:root .overflow--hidden {
   overflow: hidden;
+}
+html.html:root .padding--none {
+  padding: 0;
 }
 html.html:root .table--auto {
   table-layout: auto;
@@ -210,17 +327,6 @@ html.html:root .text--uppercase {
 }
 html.html:root .text--lowercase {
   text-transform: lowercase;
-}
-html.html:root .vertical--top thead,
-html.html:root .vertical--middle thead,
-html.html:root .vertical--bottom thead,
-html.html:root .vertical--top tbody,
-html.html:root .vertical--middle tbody,
-html.html:root .vertical--bottom tbody,
-html.html:root .vertical--top tfoot,
-html.html:root .vertical--middle tfoot,
-html.html:root .vertical--bottom tfoot {
-  vertical-align: inherit;
 }
 html.html:root .vertical--top {
   vertical-align: top;
