@@ -19,6 +19,6 @@ module.exports = (grunt) ->
     watch:
       scripts:
         files: ['src/*.styl']
-        tasks: ['concat', 'stylus']
+        tasks: ['build']
 
   grunt.registerTask 'build', ['concat', 'stylus']
