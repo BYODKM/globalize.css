@@ -1,4 +1,4 @@
-html.html:root .clear
+html:root .clear
 
   &--left
     clear left
@@ -19,7 +19,7 @@ html.html:root .clear
     &:after
       clear both
 
-html.html:root .color
+html:root .color
 
   &--black
     color black
@@ -87,7 +87,7 @@ html.html:root .color
   &--purple
     color purple
 
-html.html:root .cursor
+html:root .cursor
 
   &--auto
     cursor auto
@@ -161,7 +161,7 @@ html.html:root .cursor
   &--vertical-text
     cursor vertical-text
 
-html.html:root .display
+html:root .display
 
   &--none
     display none !important
@@ -175,7 +175,7 @@ html.html:root .display
   &--inline-block
     display inline-block
 
-html.html:root .float
+html:root .float
 
   &--left
     float left
@@ -186,7 +186,7 @@ html.html:root .float
   &--none
     float none
 
-html.html:root .font
+html:root .font
 
   &--serif
     font-family serif
@@ -224,12 +224,12 @@ html.html:root .font
   &--xx-large
     font-size xx-large
 
-html.html:root .height
+html:root .height
 
   &--full
     height 100%
 
-html.html:root .line-height
+html:root .line-height
 
   &--x-narrow
     line-height 1
@@ -246,7 +246,7 @@ html.html:root .line-height
   &--xx-wide
     line-height 2
 
-html.html:root .list-style
+html:root .list-style
 
   &--none
     list-style none
@@ -308,7 +308,10 @@ html.html:root .list-style
   &--georgian
     list-style georgian
 
-html.html:root .margin
+html:root .margin
+
+  &--1em
+    margin 1em
 
   &--none
     margin 0
@@ -317,17 +320,39 @@ html.html:root .margin
     margin-right auto
     margin-left auto
 
-html.html:root .overflow
+html:root .overflow
 
   &--hidden
     overflow hidden
 
-html.html:root .padding
+html:root .padding
+
+  &--1em
+    padding 1em
 
   &--none
     padding 0
 
-html.html:root .table
+.sizing
+
+  &--border-box
+    -webkit-box-sizing border-box
+    box-sizing border-box
+
+  &--content-box
+    -webkit-box-sizing content-box
+    box-sizing content-box
+
+  &--border-box
+  &--content-box
+
+    *
+    *:before
+    *:after
+      -webkit-box-sizing inherit
+      box-sizing inherit
+
+html:root .table
 
   &--auto
     table-layout auto
@@ -335,7 +360,7 @@ html.html:root .table
   &--fixed
     table-layout fixed
 
-html.html:root .text
+html:root .text
 
   &--left
     text-align left
@@ -358,7 +383,7 @@ html.html:root .text
   &--lowercase
     text-transform lowercase
 
-html.html:root .vertical
+html:root .vertical
 
   &--top
     vertical-align top
@@ -369,7 +394,7 @@ html.html:root .vertical
   &--bottom
     vertical-align bottom
 
-html.html:root .width
+html:root .width
 
   &--auto
     width auto

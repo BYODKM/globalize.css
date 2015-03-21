@@ -5,20 +5,15 @@ module.exports = (grunt)->
   grunt.initConfig
 
     concat:
-      dist:
-        src: ['src/*.styl']
-        dest: 'dist/globalize.styl'
+      all:
+        files:
+          'dist/globalize.styl': 'src/*.styl'
 
     stylus:
+      options:
+        compress: false
       compile:
-        options:
-          compress: false
         files:
           'dist/globalize.css': 'dist/globalize.styl'
 
-    watch:
-      scripts:
-        files: ['src/*.styl']
-        tasks: ['build']
-
-  grunt.registerTask 'build', ['concat', 'stylus']
+  grunt.registerTask 'default', ['concat', 'stylus']
