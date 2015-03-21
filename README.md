@@ -1,6 +1,6 @@
 # [globalize.css](dist/globalize.css)
 
-This is the Object-oriented <del>CSS</del> [Stylus](http://learnboost.github.io/stylus/) library you can use _"everywhere"_. Because these classes are truly solid and reliable.
+This is the Object-oriented CSS library you can use _everywhere_. Because these classes are truly solid and reliable.
 
 Looks like this.
 
@@ -19,10 +19,9 @@ You get the idea, right?
 
 Feel free to extend it. But __NOT__ to fix it.
 
-## Limitation
+## Browser Support
 
-- IE 8 is not supported on purpose.
-- You need to add `.html` class to `html` element for more specificity.
+- IE 9+ and others.
 
 ## License
 
