@@ -307,23 +307,6 @@ html:root .padding--1em {
 html:root .padding--none {
   padding: 0;
 }
-.sizing--border-box {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.sizing--content-box {
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
-}
-.sizing--border-box *,
-.sizing--content-box *,
-.sizing--border-box *:before,
-.sizing--content-box *:before,
-.sizing--border-box *:after,
-.sizing--content-box *:after {
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
-}
 html:root .table--auto {
   table-layout: auto;
 }
