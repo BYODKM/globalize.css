@@ -298,24 +298,24 @@ html:root .margin--auto {
   margin-right: auto;
   margin-left: auto;
 }
-html:root .margin---tb-1em {
+html:root .margin--tb-1em {
   margin-top: 1em;
   margin-bottom: 1em;
 }
-html:root .margin---t-1em {
+html:root .margin--t-1em {
   margin-top: 1em;
 }
-html:root .margin---b-1em {
+html:root .margin--b-1em {
   margin-bottom: 1em;
 }
-html:root .margin---lr-1em {
+html:root .margin--lr-1em {
   margin-left: 1em;
   margin-right: 1em;
 }
-html:root .margin---l-1em {
+html:root .margin--l-1em {
   margin-left: 1em;
 }
-html:root .margin---r-1em {
+html:root .margin--r-1em {
   margin-right: 1em;
 }
 html:root .overflow--hidden {
@@ -327,24 +327,24 @@ html:root .padding--1em {
 html:root .padding--none {
   padding: 0;
 }
-html:root .padding---tb-1em {
+html:root .padding--tb-1em {
   padding-top: 1em;
   padding-bottom: 1em;
 }
-html:root .padding---t-1em {
+html:root .padding--t-1em {
   padding-top: 1em;
 }
-html:root .padding---b-1em {
+html:root .padding--b-1em {
   padding-bottom: 1em;
 }
-html:root .padding---lr-1em {
+html:root .padding--lr-1em {
   padding-left: 1em;
   padding-right: 1em;
 }
-html:root .padding---l-1em {
+html:root .padding--l-1em {
   padding-left: 1em;
 }
-html:root .padding---r-1em {
+html:root .padding--r-1em {
   padding-right: 1em;
 }
 html:root .table--auto {
