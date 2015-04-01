@@ -228,64 +228,64 @@ html:root .line-height--x-wide {
 html:root .line-height--xx-wide {
   line-height: 2;
 }
-html:root .list-style-type--none {
+html:root .list-style--none {
   list-style-type: none;
 }
-html:root .list-style-type--disc {
+html:root .list-style--disc {
   list-style-type: disc;
 }
-html:root .list-style-type--circle {
+html:root .list-style--circle {
   list-style-type: circle;
 }
-html:root .list-style-type--square {
+html:root .list-style--square {
   list-style-type: square;
 }
-html:root .list-style-type--lower-roman {
+html:root .list-style--lower-roman {
   list-style-type: lower-roman;
 }
-html:root .list-style-type--upper-roman {
+html:root .list-style--upper-roman {
   list-style-type: upper-roman;
 }
-html:root .list-style-type--lower-greek {
+html:root .list-style--lower-greek {
   list-style-type: lower-greek;
 }
-html:root .list-style-type--decimal {
+html:root .list-style--decimal {
   list-style-type: decimal;
 }
-html:root .list-style-type--decimal-leading-zero {
+html:root .list-style--decimal-leading-zero {
   list-style-type: decimal-leading-zero;
 }
-html:root .list-style-type--lower-latin {
+html:root .list-style--lower-latin {
   list-style-type: lower-latin;
 }
-html:root .list-style-type--upper-latin {
+html:root .list-style--upper-latin {
   list-style-type: upper-latin;
 }
-html:root .list-style-type--upper-alpha {
+html:root .list-style--upper-alpha {
   list-style-type: upper-alpha;
 }
-html:root .list-style-type--cjk-ideographic {
+html:root .list-style--cjk-ideographic {
   list-style-type: cjk-ideographic;
 }
-html:root .list-style-type--hiragana {
+html:root .list-style--hiragana {
   list-style-type: hiragana;
 }
-html:root .list-style-type--katakana {
+html:root .list-style--katakana {
   list-style-type: katakana;
 }
-html:root .list-style-type--hiragana-iroha {
+html:root .list-style--hiragana-iroha {
   list-style-type: hiragana-iroha;
 }
-html:root .list-style-type--katakana-iroha {
+html:root .list-style--katakana-iroha {
   list-style-type: katakana-iroha;
 }
-html:root .list-style-type--hebrew {
+html:root .list-style--hebrew {
   list-style-type: hebrew;
 }
-html:root .list-style-type--armenian {
+html:root .list-style--armenian {
   list-style-type: armenian;
 }
-html:root .list-style-type--georgian {
+html:root .list-style--georgian {
   list-style-type: georgian;
 }
 html:root .margin--1em {
