@@ -1,6 +1,6 @@
 {
   "name": "globalize.css",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "dist/globalize.css",
   "author": "Tomohiro Kasuga",
   "ignore": [
