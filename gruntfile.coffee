@@ -5,6 +5,8 @@ module.exports = (grunt)->
   grunt.initConfig
 
     concat:
+      options:
+        banner: '/*! globalize.css v1.0.8 | MIT License | github.com/BYODKM */\n'
       all:
         files:
           'dist/globalize.styl': 'src/*.styl'
