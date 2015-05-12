@@ -18,4 +18,9 @@ module.exports = (grunt)->
         files:
           'dist/globalize.css': 'dist/globalize.styl'
 
-  grunt.registerTask 'default', ['concat', 'stylus']
+    watch:
+      default:
+        files: ['src/*.styl']
+        tasks: ['concat', 'stylus']
+
+  grunt.registerTask 'default', ['watch']
