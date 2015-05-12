@@ -19,15 +19,20 @@ You get the idea, right?
 
 Feel free to extend it. But __NOT__ to fix it.
 
+## Lineup
+
+See [Source](src).
+
 ## Install
 
 ```
 $ bower install --save globalize.css
 ```
 
-## Browser Support
+## Supported browsers
 
-- IE 9+ and others.
+- IE 9+
+- Others
 
 ## License
 
