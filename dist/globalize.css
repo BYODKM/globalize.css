@@ -1,4 +1,4 @@
-/* globalize.css v1.0.10 | MIT License | github.com/BYODKM */
+/* globalize.css v1.0.11 | MIT License | github.com/BYODKM */
 html:root .clear--left {
   clear: left;
 }
@@ -165,6 +165,9 @@ html:root .display--inline {
 }
 html:root .display--inline-block {
   display: inline-block;
+}
+html:root .display--list-item {
+  display: list-item;
 }
 html:root .float--left {
   float: left;

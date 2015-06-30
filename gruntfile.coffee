@@ -6,7 +6,7 @@ module.exports = (grunt)->
 
     concat:
       options:
-        banner: '/*! globalize.css v1.0.10 | MIT License | github.com/BYODKM */\n'
+        banner: '/*! globalize.css v1.0.11 | MIT License | github.com/BYODKM */\n'
       all:
         files:
           'dist/globalize.styl': 'src/*.styl'
