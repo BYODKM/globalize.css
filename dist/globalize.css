@@ -1,4 +1,4 @@
-/* globalize.css v1.0.11 | MIT License | github.com/BYODKM */
+/* globalize.css v1.1.1 | MIT License | github.com/BYODKM/globalize.css */
 html:root .u-clear--left {
   clear: left;
 }
@@ -305,74 +305,89 @@ html:root .u-margin--none {
 html:root .u-margin--0 {
   margin: 0;
 }
+html:root .u-margin--1em {
+  margin: 1em;
+}
+html:root .u-margin--1rem {
+  margin: 1rem;
+}
 html:root .u-margin--tb-0 {
   margin-top: 0;
   margin-bottom: 0;
-}
-html:root .u-margin--t-0 {
-  margin-top: 0;
-}
-html:root .u-margin--b-0 {
-  margin-bottom: 0;
-}
-html:root .u-margin--lr-0 {
-  margin-left: 0;
-  margin-right: 0;
-}
-html:root .u-margin--l-0 {
-  margin-left: 0;
-}
-html:root .u-margin--r-0 {
-  margin-right: 0;
-}
-html:root .u-margin--1em {
-  margin: 1em;
 }
 html:root .u-margin--tb-1em {
   margin-top: 1em;
   margin-bottom: 1em;
 }
+html:root .u-margin--tb-1rem {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+html:root .u-margin--t-0 {
+  margin-top: 0;
+}
 html:root .u-margin--t-1em {
   margin-top: 1em;
 }
+html:root .u-margin--t-1rem {
+  margin-top: 1rem;
+}
+html:root .u-margin--b-0 {
+  margin-bottom: 0;
+}
 html:root .u-margin--b-1em {
   margin-bottom: 1em;
+}
+html:root .u-margin--b-1rem {
+  margin-bottom: 1rem;
+}
+html:root .u-margin--lr-0 {
+  margin-left: 0;
+  margin-right: 0;
 }
 html:root .u-margin--lr-1em {
   margin-left: 1em;
   margin-right: 1em;
 }
-html:root .u-margin--l-1em {
-  margin-left: 1em;
-}
-html:root .u-margin--r-1em {
-  margin-right: 1em;
-}
-html:root .u-margin--1rem {
-  margin: 1rem;
-}
-html:root .u-margin--tb-1rem {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-html:root .u-margin--t-1rem {
-  margin-top: 1rem;
-}
-html:root .u-margin--b-1rem {
-  margin-bottom: 1rem;
-}
 html:root .u-margin--lr-1rem {
   margin-left: 1rem;
   margin-right: 1rem;
 }
+html:root .u-margin--l-0 {
+  margin-left: 0;
+}
+html:root .u-margin--l-1em {
+  margin-left: 1em;
+}
 html:root .u-margin--l-1rem {
   margin-left: 1rem;
+}
+html:root .u-margin--r-0 {
+  margin-right: 0;
+}
+html:root .u-margin--r-1em {
+  margin-right: 1em;
 }
 html:root .u-margin--r-1rem {
   margin-right: 1rem;
 }
 html:root .u-overflow--hidden {
   overflow: hidden;
+}
+html:root .u-overflow--hidden-x {
+  overflow-x: hidden;
+}
+html:root .u-overflow--hidden-y {
+  overflow-y: hidden;
+}
+html:root .u-overflow--scroll {
+  overflow: scroll;
+}
+html:root .u-overflow--scroll-x {
+  overflow-x: scroll;
+}
+html:root .u-overflow--scroll-y {
+  overflow-y: scroll;
 }
 html:root .u-padding--none {
   padding: 0;
@@ -383,12 +398,25 @@ html:root .u-padding--0 {
 html:root .u-padding--1em {
   padding: 1em;
 }
+html:root .u-padding--1rem {
+  padding: 1rem;
+}
 html:root .u-padding--tb-1em {
   padding-top: 1em;
   padding-bottom: 1em;
 }
+html:root .u-padding--tb-1rem {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 html:root .u-padding--t-1em {
   padding-top: 1em;
+}
+html:root .u-padding--t-1rem {
+  padding-top: 1rem;
+}
+html:root .u-padding--b-1rem {
+  padding-bottom: 1rem;
 }
 html:root .u-padding--b-1em {
   padding-bottom: 1em;
@@ -397,31 +425,18 @@ html:root .u-padding--lr-1em {
   padding-left: 1em;
   padding-right: 1em;
 }
-html:root .u-padding--l-1em {
-  padding-left: 1em;
-}
-html:root .u-padding--r-1em {
-  padding-right: 1em;
-}
-html:root .u-padding--1rem {
-  padding: 1rem;
-}
-html:root .u-padding--tb-1rem {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-html:root .u-padding--t-1rem {
-  padding-top: 1rem;
-}
-html:root .u-padding--b-1rem {
-  padding-bottom: 1rem;
-}
 html:root .u-padding--lr-1rem {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+html:root .u-padding--l-1em {
+  padding-left: 1em;
+}
 html:root .u-padding--l-1rem {
   padding-left: 1rem;
+}
+html:root .u-padding--r-1em {
+  padding-right: 1em;
 }
 html:root .u-padding--r-1rem {
   padding-right: 1rem;
