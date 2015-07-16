@@ -6,7 +6,7 @@ module.exports = (grunt)->
 
     concat:
       options:
-        banner: '/*! globalize.css v1.0.11 | MIT License | github.com/BYODKM */\n'
+        banner: '/*! globalize.css v1.1.0 | MIT License | github.com/BYODKM */\n'
       all:
         files:
           'dist/globalize.styl': 'src/*.styl'
@@ -23,4 +23,5 @@ module.exports = (grunt)->
         files: ['src/*.styl']
         tasks: ['concat', 'stylus']
 
-  grunt.registerTask 'default', ['watch']
+  grunt.registerTask 'default', ['build', 'watch']
+  grunt.registerTask 'build', ['concat', 'stylus']
