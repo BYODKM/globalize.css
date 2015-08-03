@@ -1,6 +1,6 @@
 # [globalize.css](dist/globalize.css)
 
-This is the **Utilities class** library you can use _everywhere_. Because these classes are truly solid and reliable.
+This is the **Utilities Class** library you can use _everywhere_. Because these classes are truly solid and reliable.
 
 Looks like this.
 
@@ -29,7 +29,7 @@ See the [source](src).
 $ bower install globalize.css --save-dev
 ```
 
-## Supported browsers
+## Supported Browsers
 
 - IE 9+
 - Others
