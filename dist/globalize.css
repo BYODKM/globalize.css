@@ -1,4 +1,4 @@
-/* globalize.css v1.1.1 | MIT License | github.com/BYODKM/globalize.css */
+/* globalize.css v1.1.2 | MIT License | github.com/BYODKM/globalize.css */
 html:root .u-clear--left {
   clear: left;
 }
@@ -40,20 +40,47 @@ html:root .u-color--whitesmoke {
 html:root .u-color--white {
   color: #fff;
 }
-html:root .u-color--navy {
-  color: #000080;
+html:root .u-color--brown {
+  color: #a52a2a;
 }
-html:root .u-color--blue {
-  color: #00f;
+html:root .u-color--maroon {
+  color: #800000;
 }
-html:root .u-color--aqua {
-  color: #0ff;
+html:root .u-color--red {
+  color: #f00;
 }
-html:root .u-color--teal {
-  color: #008080;
+html:root .u-color--salmon {
+  color: #fa8072;
+}
+html:root .u-color--tomato {
+  color: #ff6347;
+}
+html:root .u-color--chocolate {
+  color: #d2691e;
+}
+html:root .u-color--tan {
+  color: #d2b48c;
+}
+html:root .u-color--wheat {
+  color: #f5deb3;
+}
+html:root .u-color--orange {
+  color: #ffa500;
+}
+html:root .u-color--gold {
+  color: #ffd700;
+}
+html:root .u-color--khaki {
+  color: #f0e68c;
+}
+html:root .u-color--beige {
+  color: #f5f5dc;
 }
 html:root .u-color--olive {
   color: #808000;
+}
+html:root .u-color--yellow {
+  color: #ff0;
 }
 html:root .u-color--green {
   color: #008000;
@@ -61,26 +88,38 @@ html:root .u-color--green {
 html:root .u-color--lime {
   color: #0f0;
 }
-html:root .u-color--yellow {
-  color: #ff0;
+html:root .u-color--teal {
+  color: #008080;
 }
-html:root .u-color--orange {
-  color: #ffa500;
+html:root .u-color--aqua {
+  color: #0ff;
 }
-html:root .u-color--red {
-  color: #f00;
+html:root .u-color--skyblue {
+  color: #87ceeb;
 }
-html:root .u-color--maroon {
-  color: #800000;
+html:root .u-color--navy {
+  color: #000080;
+}
+html:root .u-color--blue {
+  color: #00f;
+}
+html:root .u-color--indigo {
+  color: #4b0082;
+}
+html:root .u-color--violet {
+  color: #ee82ee;
+}
+html:root .u-color--purple {
+  color: #800080;
 }
 html:root .u-color--fuchsia {
   color: #f0f;
 }
+html:root .u-color--crimson {
+  color: #dc143c;
+}
 html:root .u-color--pink {
   color: #ffc0cb;
-}
-html:root .u-color--purple {
-  color: #800080;
 }
 html:root .u-cursor--auto {
   cursor: auto;
