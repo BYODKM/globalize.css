@@ -5,14 +5,14 @@ This is the **Utilities Class** library you can use _everywhere_. Because these 
 Looks like this.
 
 ```
-.cursor--pointer  { cursor         : pointer; }
-.display--none    { display        : none   ; }
-.float--left      { float          : left   ; }
-.font--bold       { font-weight    : bold   ; }
-.table--fixed     { table-layout   : fixed  ; }
-.text--center     { text-align     : center ; }
-.vertical--middle { vertical-align : middle ; }
-.width--full      { width          : 100%   ; }
+.u-cursor--pointer  { cursor         : pointer; }
+.u-display--none    { display        : none   ; }
+.u-float--left      { float          : left   ; }
+.u-font--bold       { font-weight    : bold   ; }
+.u-table--fixed     { table-layout   : fixed  ; }
+.u-text--center     { text-align     : center ; }
+.u-vertical--middle { vertical-align : middle ; }
+.u-width--full      { width          : 100%   ; }
 ```
 
 You get the idea, right?
